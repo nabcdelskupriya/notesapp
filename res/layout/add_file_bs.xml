@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/bottom_back"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Image"
+        android:id="@+id/pickImage"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:layout_margin="3dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PPT"
+        android:id="@+id/pickppt"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:layout_margin="3dp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Document"
+        android:id="@+id/pickdocx"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:layout_margin="3dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PDF"
+        android:id="@+id/pickpdf"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:layout_margin="3dp"
+        />
+
+
+</LinearLayout>

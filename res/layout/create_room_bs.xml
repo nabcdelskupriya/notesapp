@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@drawable/bottom_back"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="room name"
+        android:textColor="@color/black"
+        android:id="@+id/roomName_etf2"
+        android:layout_margin="4dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create"
+        android:background="@drawable/bluebtnback"
+        android:layout_margin="4dp"
+        android:id="@+id/btn_cr"
+        />
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bottom_back"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show created rooms"
+        android:id="@+id/show_createdtv"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:padding="4dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show joined rooms"
+        android:id="@+id/show_joinedtv"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:padding="4dp"/>
+
+
+</LinearLayout>
